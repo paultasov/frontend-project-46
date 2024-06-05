@@ -1,0 +1,21 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "--add description--",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "paultasov <paultasov@gmail.com>",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.3.1"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
