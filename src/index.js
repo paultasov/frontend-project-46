@@ -1,5 +1,5 @@
-import { parseFiles } from "./parseFiles.js";
+import { getDiff } from "./getDiff.js";
 
 export {
-  parseFiles,
+  getDiff,
 }

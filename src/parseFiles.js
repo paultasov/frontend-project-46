@@ -5,8 +5,8 @@ import * as path from 'path'; // clarify
 
 export const parseFiles = (file1, file2) => {
   const workingDir = cwd();
-  const firstFile = readFileSync(path.resolve(workingDir, file1), 'utf8');
-  const secondFile = readFileSync(path.resolve(workingDir, file2), 'utf8');
+  const f1 = readFileSync(path.resolve(workingDir, file1), 'utf8');
+  const f2 = readFileSync(path.resolve(workingDir, file2), 'utf8');
 
-  return [JSON.parse(firstFile), JSON.parse(secondFile)];
+  return [JSON.parse(f1), JSON.parse(f2)];
 };

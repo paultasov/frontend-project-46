@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { Command } from 'commander';
-import { parseFiles } from '../src/index.js';
+import { getDiff } from '../src/index.js';
 const program = new Command();
 
 program
@@ -10,7 +10,7 @@ program
   .option('-f, --format', 'output format')
   .arguments('<filepath1> <filepath2>')
   .action((file1, file2) => {
-    console.log(parseFiles(file1, file2));
+    console.log(getDiff(file1, file2));
   });
 
 program.parse();
