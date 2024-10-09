@@ -1,7 +1,7 @@
-import { parseFiles } from './parseFiles.js';
 import _ from 'lodash';
+import parseFiles from './parseFiles.js';
 
-export const getDiff = (file1, file2) => {
+const getDiff = (file1, file2) => {
   const [f1, f2] = parseFiles(file1, file2);
 
   const unionVals = _.union(Object.entries(f1), Object.entries(f2)).sort();
@@ -29,3 +29,5 @@ export const getDiff = (file1, file2) => {
 
   return `{\n${str}}`;
 };
+
+export default getDiff;
