@@ -1,5 +1,7 @@
 ### Badges. Hexlet & Maintainability statuses:
 [![Actions Status](https://github.com/paultasov/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/paultasov/frontend-project-46/actions)
+[![ESLint](https://github.com/paultasov/frontend-project-46/actions/workflows/eslint.yml/badge.svg)](https://github.com/paultasov/frontend-project-46/actions/workflows/eslint.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/47881d2a055a6b0c37ef/maintainability)](https://codeclimate.com/github/paultasov/frontend-project-46/maintainability)
 
 ---
 ## Demo

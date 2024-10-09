@@ -1,4 +1,4 @@
-import { getDiff } from "./getDiff.js";
+import { getDiff } from './getDiff.js';
 
 export {
   getDiff,
