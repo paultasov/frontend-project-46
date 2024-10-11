@@ -1,4 +1,4 @@
-name: eslint
+name: tests-jest
 on: push
 jobs:
   build:
